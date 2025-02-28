@@ -10,7 +10,7 @@ Tento modul poskytuje českou lokalizaci pro DAE verze 12.0.19. Obsahuje překla
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
 
 ```
-https://github.com/Lethrendis/CzechTranslationDAE/module.json
+https://raw.githubusercontent.com/Lethrendis/CzechTranslationDAE/main/module.json
 ```
 
 ## Autor
