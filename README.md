@@ -1,10 +1,10 @@
 
 # CzechDAE
 
-Czech translation of DAE version 12.0.19
+Czech translation of DAE version 12.0.24
 
 ## Popis
-Tento modul poskytuje českou lokalizaci pro DAE verze 12.0.19. Obsahuje překlady základních textů aplikace.
+Tento modul poskytuje českou lokalizaci pro DAE verze 12.0.24. Obsahuje překlady základních textů aplikace.
 
 ## Instalace
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
