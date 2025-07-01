@@ -11,7 +11,7 @@
   "dae.di": "Imunita vůči zranění",
   "dae.idi": "Ignorovat imunitu vůči zranění",
   "dae.dr": "Odolání vůči zranění",
-  "dae.idr": "Ignorovat odolnost vůči poškození",
+  "dae.idr": "Ignorovat odolání vůči poškození",
   "dae.dv": "Zranitelnost vůči zranění",
   "dae.idv": "Ignorovat zranitelnost vůči zranění",
   "dae.da": "Absorpce zranění",
@@ -93,7 +93,7 @@
   "dae.darkvision": "Vidění ve tmě",
   "dae.tremorsense": "Citlivost na otřesy",
   "dae.truesight": "Pravdivé vidění",   
-  "dae.weaponProf": "Zdatnsot se zbraněmi",
+  "dae.weaponProf": "Zdatnost se zbraněmi",
   "dae.armorProf": "Výcvik se zbrojí",
   "dae.toolProf": "Zdatnost s nástrojem",
   "dae.spell0": "Pozice 0. stupně",
@@ -200,14 +200,14 @@
   "dae.attackAdvantage": "Výhoda k útoku",
   "dae.conditions": "Stav",
   "dae.calculateArmor.Name": "Automatický výpočet obranného čísla",
-  "dae.calculateArmor.Hint": "Pokud je zaškrnuto, bude DAE automaticky počítat OČ podle zbroje/štítů v inventáři. Ostatní položky mohou OČ stále upravovat.",
+  "dae.calculateArmor.Hint": "Pokud je zaškr tnuto, bude DAE automaticky počítat OČ podle zbroje/štítů v inventáři. Ostatní položky mohou OČ stále upravovat.",
   "dae.applyBaseAC.Name": "Automatický výpočet základního OČ",
-  "dae.applyBaseAC.Hint": "Pokud je zaškrnuto, bude postavám (nikoliv NP) nastaveno základní OČ na 10 + oprava Obratnosti",
+  "dae.applyBaseAC.Hint": "Pokud je zaškrtnuto, bude postavám (nikoliv NP) nastaveno základní OČ na 10 + oprava Obratnosti",
   "dae.applyingEffects": "Aplikování efektů",
   "dae.removingEffects": "Odstraňování efektů",
   "dae.tokenMagic": "TokenMagic",
   "dae.transfer.Name": "Aplikace efektu na postavu",
-  "dae.transfer.Hint": "Pokud je zaškrnuto, efekt se aplikuje na vlastníka položky při jejím vybavení. Pokud chceš efekt aplikovat na cíl při použití položky, pak tuto možnost odškrtni.",
+  "dae.transfer.Hint": "Pokud je zaškrtnuto, efekt se aplikuje na vlastníka položky při jejím vybavení. Pokud chceš efekt aplikovat na cíl při použití položky, pak tuto možnost odškrtni.",
   "dae.effectName": "Název efektu",
   "dae.readOnly": "EFEKT POUZE KE ČTENÍ",
   "dae.legact": "Legendární akce",
@@ -224,7 +224,7 @@
   "dae.Stackable": "Sčitatelné",
   "dae.EffectSheetLabel": "Seznam aktivních efektů DAE",
   "dae.confirm": "Potvrzovací dialog",
-  "dae.sure": "Jsi si jistý(á)?",
+  "dae.sure": "Jsi si jistý/á?",
   "dae.dae": "DAE",
   "dae.movement": "Pohyb",
   "dae.burrow": "Hrabání",
@@ -253,7 +253,7 @@
   "dae.isInitiativeDetail": "iniciativu",
   "dae.1Action": "1. akce: Vyprší při příští akci (hodu položky) postavy",
   "dae.Bonus Action": "Vyprší při příštím použití položky s typem aktivace ´Bonusová akce´",
-  "dae.Reaction": "Vyprší při příštím použití ppoložky s typem aktivace ´Reakce´",
+  "dae.Reaction": "Vyprší při příštím použití položky s typem aktivace ´Reakce´",
   "dae.Turn Action": "Vyprší při příštím použití položky s typem aktivace ´Akce´",
   "dae.1Attack": "1. útok: Vyprší při příštím {type} postavy",
   "dae.1Spell": "1. kouzlo: Vyprší při příštím seslání jakéhokoliv kouzla postavou",
@@ -560,7 +560,7 @@
     },
     "system.abilities.cha.proficient": {
       "name": "Zdatnost v záchraně Charismatem",
-      "description": "0: Bez zdatnosti. 1: Zdatný(á). 2: Kvalifikovaný(á). 0.5: Poloviční zdatnost."
+      "description": "0: Bez zdatnosti. 1: Zdatný/á. 2: Kvalifikovaný/á. 0.5: Poloviční zdatnost."
     },
     "system.abilities.cha.save": {
       "name": "Oprava záchrany Charismatem",
@@ -592,7 +592,7 @@
     },
     "system.abilities.con.proficient": {
       "name": "Zdatnost v záchraně Odolností",
-      "description": "0: Bez zdatnosti. 1: Zdatný(á). 2: Kvalifikovaný(á). 0.5: Poloviční zdatnost."
+      "description": "0: Bez zdatnosti. 1: Zdatný/á. 2: Kvalifikovaný/á. 0.5: Poloviční zdatnost."
     },
     "system.abilities.con.save": {
       "name": "Oprava záchrany Odolností",
@@ -624,7 +624,7 @@
     },
     "system.abilities.dex.proficient": {
       "name": "Zdatnost v záchraně Obratností",
-      "description": "0: Bez zdatnosti. 1: Zdatný(á). 2: Kvalifikovaný(á). 0.5: Poloviční zdatnost."
+      "description": "0: Bez zdatnosti. 1: Zdatný/á. 2: Kvalifikovaný/á. 0.5: Poloviční zdatnost."
     },
     "system.abilities.dex.save": {
       "name": "Oprava záchrany Obratností",
@@ -656,7 +656,7 @@
     },
     "system.abilities.int.proficient": {
       "name": "Zdatnost v záchraně Inteligencí",
-      "description": "0: Bez zdatnosti. 1: Zdatný(á). 2: Kvalifikovaný(á). 0.5: Poloviční zdatnost."
+      "description": "0: Bez zdatnosti. 1: Zdatný/á. 2: Kvalifikovaný/á. 0.5: Poloviční zdatnost."
     },
     "system.abilities.int.save": {
       "name": "Oprava záchrany Inteligencí",
@@ -688,7 +688,7 @@
     },
     "system.abilities.str.proficient": {
       "name": "Zdatnost v záchraně Silou",
-      "description": "0: Bez zdatnosti. 1: Zdatný(á). 2: Kvalifikovaný(á). 0.5: Poloviční zdatnost."
+      "description": "0: Bez zdatnosti. 1: Zdatný/á. 2: Kvalifikovaný/á. 0.5: Poloviční zdatnost."
     },
     "system.abilities.str.save": {
       "name": "Oprava záchrany Silou",
@@ -720,7 +720,7 @@
     },
     "system.abilities.wis.proficient": {
       "name": "Zdatnost v záchraně na Moudrost",
-      "description": "0: Bez zdatnosti. 1: Zdatný(á). 2: Kvalifikovaný(á). 0.5: Poloviční zdatnost."
+      "description": "0: Bez zdatnosti. 1: Zdatný/á. 2: Kvalifikovaný/á. 0.5: Poloviční zdatnost."
     },
     "system.abilities.wis.save": {
       "name": "Oprava záchrany Moudrostí",
@@ -1244,7 +1244,7 @@
     },
     "system.attributes.ac.armor": {
       "name": "",
-      "description": "Bonus k OČ zbroje (obvykle poskytován pouze nošenou zbrojí - bude mít efekt pouze v případě, kdy postava nenosí zbroj)."
+      "description": "Bonus k OČ zbroje (obvykle poskytován pouze nošenou zbrojí, bude tedy mít efekt pouze v případě, kdy postava nenosí zbroj)."
     },
     "system.attributes.ac.base": {
       "name": "",
@@ -1792,7 +1792,7 @@
     },
     "system.traits.dr.value": {
       "name": "",
-      "description": "Použij režim ´Přidat´ a vyber typ redukce, kterou chceš přidat. ´-typ´ ji odstraní.."
+      "description": "Použij režim ´Přidat´ a vyber typ redukce, kterou chceš přidat. ´-typ´ ji odstraní."
     },
     "system.traits.dv.all": {
       "name": "",
